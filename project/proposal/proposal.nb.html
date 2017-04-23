@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Cheng Yee, Rodrigo Valdez-Ortiz, J.Adrián Sánchez" />
+<meta name="author" content="Cheng Yee Lim, Rodrigo Valdez-Ortiz, J.Adrián Sánchez" />
 
 
 <title>Project Proposal</title>
@@ -169,7 +169,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Project Proposal</h1>
 <h3 class="subtitle"><em>Machine Learning for Public Policy</em></h3>
-<h4 class="author"><em>Cheng Yee, Rodrigo Valdez-Ortiz, J.Adrián Sánchez</em></h4>
+<h4 class="author"><em>Cheng Yee Lim, Rodrigo Valdez-Ortiz, J.Adrián Sánchez</em></h4>
 <h4 class="date"><em>April, 2017</em></h4>
 
 </div>
@@ -203,7 +203,8 @@ $(document).ready(function () {
 </div>
 <div id="analysis" class="section level1">
 <h1>Analysis</h1>
-<p>## What kind of models will you apply? We are looking to identify a ranking score that determines the probability that police officers will engage in adver/misconduct behavior</p>
+<p>We are looking to identify a risk ranking score that determines the probability that police officers will engage in adverse event/misconduct behavior<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. As explained before, our predictors will be <em>officer attributes and its activities</em> from a time-period that will predict a risk ranking score which could be used, at different thresholds, to obtain a dummy output variable <span class="math inline">\({0,1}\)</span> for a top-N list, that indicate if a officer is likely to misbehave in a period of time.</p>
+<p>For this endeavor we will</p>
 </div>
 <div id="what-actions-will-this-enable-or-improve" class="section level1">
 <h1>What actions will this enable or improve?</h1>
@@ -217,8 +218,14 @@ $(document).ready(function () {
 <p>## What kind of recommendations do you hope to give to policymakers based on this analysis/project. ## How will you validate whether what you are proposing will have the desired impact?</p>
 <!-- rnb-text-end -->
 </div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>We refere to adverse events or misconduct behavior for the following criteria: (1) officer’s improper use of force, (2) citizen or officer injury or accident and (3) any sustained serious complaint from a citizen or collegue.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUHJvamVjdCBQcm9wb3NhbCIKc3VidGl0bGU6ICJNYWNoaW5lIExlYXJuaW5nIGZvciBQdWJsaWMgUG9saWN5IgphdXRob3I6ICJDaGVuZyBZZWUsIFJvZHJpZ28gVmFsZGV6LU9ydGl6LCBKLkFkcmnDoW4gU8OhbmNoZXoiCm91dHB1dDoKICBwZGZfZG9jdW1lbnQ6IGRlZmF1bHQKICBodG1sX25vdGVib29rOiBkZWZhdWx0CmRhdGU6ICJBcHJpbCwgMjAxNyIKLS0tCgojIFByb2plY3QgZ29hbHMKCiMjIFByb2JsZW0gZGVmaW5pdGlvbgojIyBJbXBvcnRhbmNlCiMjIEltcGFjdAojIyBXaG8gY2FyZXMKIyMgV2hvIHdpbGwgdGFrZSBhY3Rpb24gYmFzZWQgb24geW91ciB3b3JrCiMjIFdoYXQgYXJlIHRoZSBwb2xpY3kgZ29hbHMgeW91IGNhcmUgYWJvdXQ/CgojIERhdGEKICAjIyBXaGF0IHlvdSBoYXZlCiAgIyMgV2hhdCB5b3UgbmVlZAoKIyBBbmFseXNpcwogICMjIFdoYXQga2luZCBvZiBtb2RlbHMgd2lsbCB5b3UgYXBwbHk/CiAgV2UgYXJlIGxvb2tpbmcgdG8gaWRlbnRpZnkgYSByYW5raW5nIHNjb3JlIHRoYXQgZGV0ZXJtaW5lcyB0aGUgcHJvYmFiaWxpdHkgdGhhdCBwb2xpY2Ugb2ZmaWNlcnMgd2lsbCBlbmdhZ2UgaW4gYWR2ZXIvbWlzY29uZHVjdCBiZWhhdmlvcgoKIyBXaGF0IGFjdGlvbnMgd2lsbCB0aGlzIGVuYWJsZSBvciBpbXByb3ZlPwoKIyBFdmFsdWF0aW9uCiAgIyMgSG93IHdvdWxkIHlvdSBldmFsdWF0ZSB0aGUgbW9kZWxzLCB3aGF0IG1ldHJpY3M/IAoKIyBQb2xpY3kgcmVjb21tZW5kYXRpb25zOiAKICAjIyBXaGF0IGtpbmQgb2YgcmVjb21tZW5kYXRpb25zIGRvIHlvdSBob3BlIHRvIGdpdmUgdG8gcG9saWN5bWFrZXJzIGJhc2VkIG9uIHRoaXMgYW5hbHlzaXMvcHJvamVjdC4gCiAgIyMgSG93IHdpbGwgeW91IHZhbGlkYXRlIHdoZXRoZXIgd2hhdCB5b3UgYXJlIHByb3Bvc2luZyB3aWxsIGhhdmUgdGhlIGRlc2lyZWQgaW1wYWN0Pw==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUHJvamVjdCBQcm9wb3NhbCIKc3VidGl0bGU6ICJNYWNoaW5lIExlYXJuaW5nIGZvciBQdWJsaWMgUG9saWN5IgphdXRob3I6ICJDaGVuZyBZZWUgTGltLCBSb2RyaWdvIFZhbGRlei1PcnRpeiwgSi5BZHJpw6FuIFPDoW5jaGV6IgpvdXRwdXQ6CiAgcGRmX2RvY3VtZW50OiBkZWZhdWx0CiAgaHRtbF9ub3RlYm9vazogZGVmYXVsdApkYXRlOiAiQXByaWwsIDIwMTciCi0tLQoKIyBQcm9qZWN0IGdvYWxzCgojIyBQcm9ibGVtIGRlZmluaXRpb24KIyMgSW1wb3J0YW5jZQojIyBJbXBhY3QKIyMgV2hvIGNhcmVzCiMjIFdobyB3aWxsIHRha2UgYWN0aW9uIGJhc2VkIG9uIHlvdXIgd29yawojIyBXaGF0IGFyZSB0aGUgcG9saWN5IGdvYWxzIHlvdSBjYXJlIGFib3V0PwoKIyBEYXRhCiAgIyMgV2hhdCB5b3UgaGF2ZQogICMjIFdoYXQgeW91IG5lZWQKCiMgQW5hbHlzaXMKCldlIGFyZSBsb29raW5nIHRvIGlkZW50aWZ5IGEgcmlzayByYW5raW5nIHNjb3JlIHRoYXQgZGV0ZXJtaW5lcyB0aGUgcHJvYmFiaWxpdHkgdGhhdCBwb2xpY2Ugb2ZmaWNlcnMgd2lsbCBlbmdhZ2UgaW4gYWR2ZXJzZSBldmVudC9taXNjb25kdWN0IGJlaGF2aW9yXltXZSByZWZlcmUgdG8gYWR2ZXJzZSBldmVudHMgb3IgbWlzY29uZHVjdCBiZWhhdmlvciBmb3IgdGhlIGZvbGxvd2luZyBjcml0ZXJpYTogKDEpIG9mZmljZXIncyBpbXByb3BlciB1c2Ugb2YgZm9yY2UsICgyKSBjaXRpemVuIG9yIG9mZmljZXIgaW5qdXJ5IG9yIGFjY2lkZW50IGFuZCAoMykgYW55IHN1c3RhaW5lZCBzZXJpb3VzIGNvbXBsYWludCBmcm9tIGEgY2l0aXplbiBvciBjb2xsZWd1ZS5dLiBBcyBleHBsYWluZWQgYmVmb3JlLCBvdXIgcHJlZGljdG9ycyB3aWxsIGJlICpvZmZpY2VyIGF0dHJpYnV0ZXMgYW5kIGl0cyBhY3Rpdml0aWVzKiBmcm9tIGEgdGltZS1wZXJpb2QgdGhhdCB3aWxsIHByZWRpY3QgYSByaXNrIHJhbmtpbmcgc2NvcmUgd2hpY2ggY291bGQgYmUgdXNlZCwgYXQgZGlmZmVyZW50IHRocmVzaG9sZHMsIHRvIG9idGFpbiBhIGR1bW15IG91dHB1dCB2YXJpYWJsZSAkezAsMX0kIGZvciBhIHRvcC1OIGxpc3QsIHRoYXQgaW5kaWNhdGUgaWYgYSBvZmZpY2VyIGlzIGxpa2VseSB0byBtaXNiZWhhdmUgaW4gYSBwZXJpb2Qgb2YgdGltZS4gCgpGb3IgdGhpcyBlbmRlYXZvciB3ZSB3aWxsIAoKIyBXaGF0IGFjdGlvbnMgd2lsbCB0aGlzIGVuYWJsZSBvciBpbXByb3ZlPwoKIyBFdmFsdWF0aW9uCiAgIyMgSG93IHdvdWxkIHlvdSBldmFsdWF0ZSB0aGUgbW9kZWxzLCB3aGF0IG1ldHJpY3M/IAoKIyBQb2xpY3kgcmVjb21tZW5kYXRpb25zOiAKICAjIyBXaGF0IGtpbmQgb2YgcmVjb21tZW5kYXRpb25zIGRvIHlvdSBob3BlIHRvIGdpdmUgdG8gcG9saWN5bWFrZXJzIGJhc2VkIG9uIHRoaXMgYW5hbHlzaXMvcHJvamVjdC4gCiAgIyMgSG93IHdpbGwgeW91IHZhbGlkYXRlIHdoZXRoZXIgd2hhdCB5b3UgYXJlIHByb3Bvc2luZyB3aWxsIGhhdmUgdGhlIGRlc2lyZWQgaW1wYWN0Pw==</div>
 
 
 

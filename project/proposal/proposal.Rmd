@@ -1,7 +1,7 @@
 ---
 title: "Project Proposal"
 subtitle: "Machine Learning for Public Policy"
-author: "Cheng Yee, Rodrigo Valdez-Ortiz, J.Adrián Sánchez"
+author: "Cheng Yee Lim, Rodrigo Valdez-Ortiz, J.Adrián Sánchez"
 output:
   pdf_document: default
   html_notebook: default
@@ -22,8 +22,10 @@ date: "April, 2017"
   ## What you need
 
 # Analysis
-  ## What kind of models will you apply?
-  We are looking to identify a ranking score that determines the probability that police officers will engage in adver/misconduct behavior
+
+We are looking to identify a risk ranking score that determines the probability that police officers will engage in adverse event/misconduct behavior^[We refere to adverse events or misconduct behavior for the following criteria: (1) officer's improper use of force, (2) citizen or officer injury or accident and (3) any sustained serious complaint from a citizen or collegue.]. As explained before, our predictors will be *officer attributes and its activities* from a time-period that will predict a risk ranking score which could be used, at different thresholds, to obtain a dummy output variable ${0,1}$ for a top-N list, that indicate if a officer is likely to misbehave in a period of time. 
+
+For this endeavor we will 
 
 # What actions will this enable or improve?
 
