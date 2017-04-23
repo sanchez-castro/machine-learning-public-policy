@@ -1,0 +1,35 @@
+---
+title: "Project Proposal"
+subtitle: "Machine Learning for Public Policy"
+author: "Cheng Yee, Rodrigo Valdez-Ortiz, J.Adrián Sánchez"
+output:
+  pdf_document: default
+  html_notebook: default
+date: "April, 2017"
+---
+
+# Project goals
+
+## Problem definition
+## Importance
+## Impact
+## Who cares
+## Who will take action based on your work
+## What are the policy goals you care about?
+
+# Data
+  ## What you have
+  ## What you need
+
+# Analysis
+  ## What kind of models will you apply?
+  We are looking to identify a ranking score that determines the probability that police officers will engage in adver/misconduct behavior
+
+# What actions will this enable or improve?
+
+# Evaluation
+  ## How would you evaluate the models, what metrics? 
+
+# Policy recommendations: 
+  ## What kind of recommendations do you hope to give to policymakers based on this analysis/project. 
+  ## How will you validate whether what you are proposing will have the desired impact?
